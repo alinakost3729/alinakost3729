@@ -1,0 +1,52 @@
+{
+  "note": "tapFrac is normalised screen space with y measured from the TOP. Every value below is computed from the RectTransform that ships in the scene, over the 1242 x 2688 canvas reference resolution, not estimated. The board auto-launches 6 s after entering AIM, so no step here can strand the capture on a screen that waits for input.",
+  "steps": [
+    {
+      "wait": 4,
+      "shot": "01_menu"
+    },
+    {
+      "tapFrac": [0.186, 0.602],
+      "label": "CIRCUIT_I_CHIP",
+      "wait": 2,
+      "shot": "02_circuit_picked"
+    },
+    {
+      "tapFrac": [0.500, 0.700],
+      "label": "PLAY",
+      "waitLoader": true,
+      "wait": 3,
+      "shot": "03_how_to_play"
+    },
+    {
+      "tapFrac": [0.500, 0.579],
+      "label": "GOT_IT",
+      "wait": 3,
+      "shot": "04_board_aim"
+    },
+    {
+      "tapFrac": [0.380, 0.450],
+      "label": "SET_MAGNET",
+      "wait": 8,
+      "shot": "05_run_early"
+    },
+    {
+      "tapFrac": [0.160, 0.885],
+      "label": "TILT_LEFT",
+      "wait": 8,
+      "shot": "06_run_tilt"
+    },
+    {
+      "tapFrac": [0.500, 0.885],
+      "label": "LAUNCH_SECOND",
+      "wait": 20,
+      "shot": "07_run_second"
+    },
+    {
+      "tapFrac": [0.500, 0.885],
+      "label": "LAUNCH_THIRD",
+      "wait": 26,
+      "shot": "08_result_card"
+    }
+  ]
+}

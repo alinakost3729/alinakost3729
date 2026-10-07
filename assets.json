@@ -1,0 +1,125 @@
+{
+  "style": "flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base",
+  "palette": {
+    "base": "#10162F",
+    "baseDeep": "#0A0F22",
+    "surface": "#16204A",
+    "cyan": "#25C9EF",
+    "magenta": "#EF4F91",
+    "gold": "#F5C445",
+    "green": "#7FD14A",
+    "textPrimary": "#F7F7FF",
+    "textSecondary": "#8892B8",
+    "outline": "#070B1C"
+  },
+  "icon": {
+    "base": "#10162F",
+    "accent": "#25C9EF",
+    "accent2": "#EF4F91",
+    "hero": "sprite_ball_core",
+    "support": "sprite_orbit_ring",
+    "background": "crop of Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+    "target": "Assets/Art/Textures/game_icon.png",
+    "note": "composited after the sprites; one glowing ball as the single hero, a single orbit ring behind it, no lettering of any kind"
+  },
+  "assets": [
+    {
+      "name": "bg_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "Vertical 9:19.5 mobile game background, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, deep navy field with faint concentric glowing arcs sweeping across it, scattered cyan and magenta light specks, soft vignette at the edges, calm uncluttered centre so interface reads on top, no text, no letters, no numbers, no watermark, no UI elements"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "Vertical 9:19.5 mobile game background, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, very dark navy plate with a low contrast grid of concentric rings, soft cyan glow along the top edge fading to near black at the bottom, deliberately low detail so gameplay pieces read clearly on top, no text, no letters, no numbers, no watermark, no UI elements"
+    },
+    {
+      "name": "sprite_ball_core",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_ball_core.png",
+      "prompt": "One single glowing energy sphere, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, cyan core with a white hot centre and a thin magenta rim light, radially symmetric with no facing direction, one subject centred and complete in frame, no text"
+    },
+    {
+      "name": "sprite_orbit_ring",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_orbit_ring.png",
+      "prompt": "One single glowing neon ring, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, thick cyan outline with small notch marks on the rim and a completely hollow fully transparent centre, radially symmetric with no facing direction, one subject centred and complete in frame, no text"
+    },
+    {
+      "name": "sprite_magnet_node",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_magnet_node.png",
+      "prompt": "One single magnetic puck, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, hexagonal magenta housing around a glowing core, top-down view and radially symmetric, one subject centred and complete in frame, no text"
+    },
+    {
+      "name": "sprite_peg_bumper",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_peg_bumper.png",
+      "prompt": "One single small round bumper peg, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, gold cap with a dark rim and a soft highlight, radially symmetric with no facing direction, one subject centred and complete in frame, no text"
+    },
+    {
+      "name": "sprite_cup_finish",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_cup_finish.png",
+      "prompt": "One single wide catch basin, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, green neon lip above a dark inner well, front view with the opening facing UP, symmetric left to right, one subject centred and complete in frame, no text"
+    },
+    {
+      "name": "sprite_board_frame",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_board_frame.png",
+      "prompt": "One single rounded rectangular frame, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, thick cyan neon border with small corner bolts and a completely empty fully transparent centre, symmetric on both axes and even on all four sides so it slices cleanly, one subject centred and complete in frame, no text"
+    },
+    {
+      "name": "sprite_glow_dot",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_glow_dot.png",
+      "prompt": "One single soft round light dot, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, white hot centre fading outward into cyan, radially symmetric with no facing direction, one subject centred and complete in frame, no text"
+    },
+    {
+      "name": "sprite_panel_plate",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_panel_plate.png",
+      "prompt": "One single rounded square interface plate, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, thin bright cyan edge around a flat dark navy face with softly rounded corners, symmetric on both axes and even on all four sides so it slices cleanly, one subject centred and complete in frame, no text"
+    },
+    {
+      "name": "sprite_brand_mark",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_brand_mark.png",
+      "prompt": "One single abstract emblem of a broken circular ring, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, thick cyan ring with one clean gap in it and a small glowing gold bead sitting at the gap, purely a geometric mark, radially symmetric apart from the gap, one subject centred and complete in frame, absolutely no letters, no words, no text"
+    },
+    {
+      "name": "icon_close",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/icon_close.png",
+      "prompt": "One single bold X close mark, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, two thick rounded strokes crossing, cyan with a white core, symmetric on both axes, one subject centred and complete in frame, no text"
+    },
+    {
+      "name": "icon_pause",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/icon_pause.png",
+      "prompt": "One single pause mark of two thick vertical bars with rounded caps, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, cyan with a white core, symmetric left to right, one subject centred and complete in frame, no text"
+    },
+    {
+      "name": "icon_back",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/icon_back.png",
+      "prompt": "One single chevron arrow mark, flat vector cartoon, neon arcade game art, bold clean outlines, glossy highlights, additive glow, dark navy base, one thick rounded stroke bent into an arrowhead, cyan with a white core, side view pointing LEFT, asymmetric left to right so the direction reads, one subject centred and complete in frame, no text"
+    }
+  ]
+}
